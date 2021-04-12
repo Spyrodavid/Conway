@@ -212,6 +212,7 @@ function buffer(){
 
 function clear(){
 	clearInterval(interval)
+	for (x of [0,0]
 	board.childNodes.forEach(cell=>{
 		for (x of cell.classList){
 			 if (x != 'buffer' && x != 'cell'){
